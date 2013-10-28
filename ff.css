@@ -1,0 +1,64 @@
+mespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); 
+
+#appmenu-button{display:none !important;}
+#main-window {-moz-appearance:none !important;}
+
+#appmenu-button-container, 
+#appmenu-toolbar-button {
+    display: none !important;
+}
+
+
+.tab-throbber{display:none !important;}
+
+input {
+    -moz-appearance: none !important;
+    background-color: pink !important;
+    color: green !important;
+}
+
+textarea {
+    -moz-appearance: none !important;
+    background-color: pink !important;
+    color: green !important;
+}
+
+select {
+    -moz-appearance: none !important;
+    background-color: pink !important;
+    color: green !important;
+}
+
+input {
+    -moz-appearance: none !important;
+    background-color: white;
+    color: black;
+}
+
+textarea {
+    -moz-appearance: none !important;
+    background-color: white;
+    color: black;
+}
+
+select {
+    -moz-appearance: none !important;
+    background-color: white;
+    color: black;
+}
+
+#nav-bar {
+border: none !important;
+padding: 0px !important;
+}
+
+
+.tabbrowser-tab:not([pinned]) .tab-icon-image {
+display: none !important;
+}
+
+
+.tab-close-button{display:none !important;}
+
+
+.autocomplete-history-dropmarker{display: none !important;}
